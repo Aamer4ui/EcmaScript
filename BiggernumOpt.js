@@ -6,4 +6,4 @@ const BiggerNumOpt = (num1 , num2 , num3 , num4) =>{
     return BadaNum;
 };
 
-console.log(`Bigger Number Is ${BiggerNumOpt(23, 45 ,85 , 55)}`)
+console.log(`Bigger Number Is ${BiggerNumOpt(23, 115 ,85 , 55)}`)
