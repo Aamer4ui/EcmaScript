@@ -7,4 +7,4 @@ const BiggerNumOpt = (num1 , num2 , num3 , num4) =>
 
     Math.max (num1 , num2 , num3 , num4); /// other option optimum
 
-console.log(`Bigger Number Is ${BiggerNumOpt(23, 115 ,85 , 55)}`)
+console.log(`Bigger Number Is ${BiggerNumOpt(23, 115 ,85 , 55)}`);
