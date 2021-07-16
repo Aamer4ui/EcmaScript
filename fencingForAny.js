@@ -1,7 +1,9 @@
 const FencingAny = (edges, numberWire, rate) => {
-    for(let i = 0; i<edges.lenth; i++){
-
+    let sum = 0;
+    for(let i = 0; i < edges.length; i++){
+        sum = sum + edges[i];
     }
+    return sum * numberWire * rate;
 
 };
-console.log(FencingAny([30,20,30],5,10));
+console.log(FencingAny([45,15,5,25],3,8));
