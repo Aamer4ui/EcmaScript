@@ -5,8 +5,7 @@ const FencingAny = (edges, numberWire, rate) => {
     // }
     // return sum * numberWire * rate;
     edges.forEach(element => {
-        sum = sum+element;
-        
+        sum = sum+element;    
     });
     return sum * numberWire * rate;
 
