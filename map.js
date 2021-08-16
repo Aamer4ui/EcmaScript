@@ -1,5 +1,7 @@
 const MapAssign = (cont) => cont.map((kuch) =>
-    ` ${kuch.name} heir to this ${kuch.designation} and your location is ${kuch.city}`
+    `Name: ${kuch.name} 
+    Position: ${kuch.designation} 
+    Location: ${kuch.city}`
 
 );
 console.log(
